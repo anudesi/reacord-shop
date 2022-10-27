@@ -1,3 +1,6 @@
+## TASK 07
+
+
 ## TASK 06 - VALIDATION AND SANITIZATION
 
 In this task we will introduce data validation. How we will we know that the format of the email the user inserted is valid? Using `express-validator` we will validate our data before we save them in our database. If something is not valid, we will return a detailed error message to the user. After validation, we will sanitize our data using `express-validator`. Validation is about making sure our data are in the right format. Sanitzation though is all about making sure the data are also noise-free. No extra spaces, no uppercase mixed with lowercase, normalized emails etc.
